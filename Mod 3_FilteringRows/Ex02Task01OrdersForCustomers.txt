@@ -1,4 +1,15 @@
+
 USE Northwind
+
+Select * from customers 
+WHERE
+	CustomerID = 'ALFKI'
+OR
+	CustomerID = 'ERNSH'
+OR
+	CustomerID = 'SIMOB'
+
+*/ Try the code above to compare the difference with the actual code below*/
 
 SELECT
 	OrderID,
@@ -12,3 +23,4 @@ OR
 	CustomerID = 'ERNSH'
 OR
 	CustomerID = 'SIMOB'
+
